@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gloock', serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(18, 16, 128); 
+}
+
+.logo {
+    display: flex;
+    margin: 28px 45px;
+}
+
+.logo img {
+    width: 230px;
+}
+
+.home {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home .fast {
+    color: aqua;
+    font-size: 10rem;
+    width: 962px;
+    margin-top: 386px;
+    margin-left: 25px;
+}
+
+.home .secont {
+    color: aqua;
+    font-size: 9rem;
+    margin: 0px 23px;
+}
+
+.home p{
+    color: wheat;
+    font-size: 47px;
+    width: 477px;
+    margin: 20px 31px;
+}
+
+.btn {
+    background-color: aqua;
+    color: #0c0c0b;
+    display: block;
+    width: 631px;
+    padding: 25px;
+    margin: 23px 29px;
+    border-radius: 14px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.follow{
+    display: flex;
+    flex-direction: inherit;
+}
+.follow img{
+    position: relative;
+    width: 90px;
+    left: 10%;
+    top: 388px;
+}
+
+.follow p{
+    position: relative;
+    padding: 2px 95px;
+    left: 5%;
+    top: 291px;
+}
+
+.img1 {
+    display: none;
+}
+
+.img2 {
+    position: absolute;
+    top: 150px;
+    left: 100%;
+}
+
+.img2 img {
+    width: 390px;
+    z-index: -1;
+}
+
+.img3 {
+    position: absolute;
+    top: 191px;
+    left: 11%;
+}
+
+.img3 img {
+    width: 327px;
+    z-index: -1;
+}
+
+.img4 {
+    display: none;
+}
+
+.img5 {
+    display: none;
+}
+
+.img6 {
+    position: absolute;
+    top: 1153px;
+    left: 80%;
+}
+
+.img6 img {
+    width: 500px;
+}
